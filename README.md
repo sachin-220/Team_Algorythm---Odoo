@@ -150,9 +150,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 # Real Gmail SMTP Configuration
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USERNAME=sachinj2503@gmail.com
-SMTP_PASSWORD=gizf msbu mhnm ruls
-SMTP_FROM=sachinj2503@gmail.com
+SMTP_USERNAME=your_email@gmail.com
+SMTP_PASSWORD=your_google_app_password
+SMTP_FROM=your_email@gmail.com
 ```
 
 ---
@@ -221,7 +221,7 @@ SMTP_FROM=sachinj2503@gmail.com
 | **Administrator** | `admin` | `password123` | `admin@stocksense.io` | Full system access, reorder configuration, audit controls |
 | **Inventory Manager** | `manager` | `password123` | `manager@stocksense.io` | Operations approval, transfer validation, ML execution |
 | **Warehouse Staff** | `staff` | `password123` | `staff@stocksense.io` | Picking, cycle counting, receipt draft submission |
-| **Live Gmail OTP User** | `sachin` | `StockSenseVerified#2026` | `sachinj2503@gmail.com` | Verified for live Gmail OTP password recovery testing |
+| **Live Gmail OTP User** | `demo_user` | `StockSenseVerified#2026` | `user@example.com` | Verified for live Gmail OTP password recovery testing |
 
 ---
 

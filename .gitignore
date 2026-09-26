@@ -7,7 +7,12 @@ __pycache__/
 env/
 venv/
 ENV/
+# Environment & Secrets
+.env
+.env.*
 *.env
+backend/.env
+frontend/.env
 !.env.example
 jwt_secret.txt
 
@@ -26,3 +31,8 @@ yarn-error.log*
 Thumbs.db
 *.log
 scratch/
+
+# Screen recordings
+*.mp4
+*.mov
+*.avi

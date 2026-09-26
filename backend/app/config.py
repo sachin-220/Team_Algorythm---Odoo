@@ -48,7 +48,7 @@ class Settings:
 
     @property
     def SMTP_USERNAME(self) -> str:
-        return os.getenv("SMTP_USERNAME", "sachinj2503@gmail.com")
+        return os.getenv("SMTP_USERNAME", "")
 
     @property
     def SMTP_PASSWORD(self) -> str:
@@ -56,7 +56,7 @@ class Settings:
 
     @property
     def SMTP_FROM(self) -> str:
-        return os.getenv("SMTP_FROM", os.getenv("SMTP_USERNAME", "sachinj2503@gmail.com"))
+        return os.getenv("SMTP_FROM", os.getenv("SMTP_USERNAME", ""))
 
     def get_jwt_secret(self) -> str:
         secret = os.getenv("JWT_SECRET_KEY")

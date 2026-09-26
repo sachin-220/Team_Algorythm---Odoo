@@ -27,6 +27,15 @@ const AppContent = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [isCopilotOpen, setIsCopilotOpen] = useState(false);
 
+  React.useEffect(() => {
+    window.__stockSenseNav = (tab) => {
+      setActiveTab(tab);
+      setIsCopilotOpen(false);
+    };
+    window.__stockSenseOpenCopilot = () => setIsCopilotOpen(true);
+    window.__stockSenseCloseCopilot = () => setIsCopilotOpen(false);
+  }, []);
+
   if (loading) {
     return (
       <div style={{
