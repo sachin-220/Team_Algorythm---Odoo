@@ -1,0 +1,12 @@
+{
+  "product_id": 4,
+  "product_name": "Ergonomic Mesh Task Chair",
+  "sku": "PROD-301",
+  "trained": true,
+  "data_points": 54,
+  "mae": 1.0,
+  "rmse": 1.34,
+  "r2": 0.65,
+  "avg_daily_demand": 1.44,
+  "last_trained": "2026-09-26T09:24:10.181399"
+}

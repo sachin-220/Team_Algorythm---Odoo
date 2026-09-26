@@ -1,0 +1,12 @@
+{
+  "product_id": 2,
+  "product_name": "ARM Cortex Microcontroller",
+  "sku": "PROD-102",
+  "trained": true,
+  "data_points": 54,
+  "mae": 15.73,
+  "rmse": 17.97,
+  "r2": 0.65,
+  "avg_daily_demand": 20.6,
+  "last_trained": "2026-09-26T09:24:08.564540"
+}

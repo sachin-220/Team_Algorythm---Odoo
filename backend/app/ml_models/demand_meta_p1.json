@@ -1,0 +1,12 @@
+{
+  "product_id": 1,
+  "product_name": "Enterprise Wi-Fi 6 Router",
+  "sku": "PROD-101",
+  "trained": true,
+  "data_points": 53,
+  "mae": 4.65,
+  "rmse": 5.49,
+  "r2": 0.65,
+  "avg_daily_demand": 4.08,
+  "last_trained": "2026-09-26T09:24:07.677588"
+}
